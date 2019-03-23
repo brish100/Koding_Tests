@@ -1,0 +1,77 @@
+Python
+'''
+Avoid coupling the sender of a request to its receiver by giving
+more than one object a chance to handle the request. Chain the receiving
+objects and pass the request alon the chain until an object handles it.
+
+Istedenfor at en object håndterer en spesifikk problemstilling så lager
+mann en lenke med forskjellige noder, som sender oppgaven videre om de ikke klarer å gjøre oppgaven.
+Slik at det ender opp med at en klarer å gjøre oppgaven.
+
+
+Used to achieve loose coupling in software where a soecufued request from the client is passed through a chain of objects included in it.
+It helps in building a chain of objects.
+The request eneters from one end and moves from one object to another.
+
+
+When to use:
+	more than one object may handle a request, and the handler should be ascertained automatically
+	you want to issue a request to one of several objects without specifying the receiver explicitly
+	the set of objects that can handle a request should be specified dynamically
+
+chain-of-responsibility-pattern
+design pattern consisting of a source of command objects and a series of processing objects.
+
+Coupling the sender of request to its receiver should be avoided.
+It should be possible that more than one receiver can handle a request.
+
+Quite similar to the decorator pattern
+
+The concept hovers around the concept,
+that an object should be connected to a chain of linked objects,
+where tasks are transferred if not executable(due to time/capacity reasons),
+should be able to work on.
+'''
+
+Java
+/*
+	The concept hovers around the concept,
+	that an object should be connected to a chain of linked objects,
+	where tasks are transferred if not executable(due to time/capacity reasons),
+	should be able to work on 
+*/
+
+C
+// Importing essentials as C programming requires specific imports of each part to make it work :)
+// Solving mutability using function pointers
+
+Javascript
+/*
+Avoid coupling the sender of a request to its receiver by giving
+more than one object a chance to handle the request. Chain the receiving
+objects and pass the request alon the chain until an object handles it.
+
+Istedenfor at en object håndterer en spesifikk problemstilling så lager
+mann en lenke med forskjellige noder, som sender oppgaven videre om de ikke klarer å gjøre oppgaven.
+Slik at det ender opp med at en klarer å gjøre oppgaven.
+
+
+Used to achieve loose coupling in software where a soecufued request from the client is passed through a chain of objects included in it.
+It helps in building a chain of objects.
+The request eneters from one end and moves from one object to another.
+
+
+When to use:
+	more than one object may handle a request, and the handler should be ascertained automatically
+	you want to issue a request to one of several objects without specifying the receiver explicitly
+	the set of objects that can handle a request should be specified dynamically
+
+chain-of-responsibility-pattern
+design pattern consisting of a source of command objects and a series of processing objects.
+
+Coupling the sender of request to its receiver should be avoided.
+It should be possible that more than one receiver can handle a request.
+
+Quite similar to the decorator pattern
+*/
+
